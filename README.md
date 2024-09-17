@@ -8,7 +8,7 @@
 <li>The third webpage is a table about all the courses and schools existing at AltSchool Africa.</li>
 <li>And the fourth webpage contains three different media types. Where the picture element has three sources with responsiveness for mobile, tablet and laptop.</li>
 </ul>
-<p>Link to the webpage coming soon:</p>
+<p>View link to the webpage below:</p>
 <ul>
-  <li><a href="#" target="_blank">Link</a></li>
+  <li><a href="https://justinjay.vercel.app" target="_blank">Link</a></li>
 </ul>
