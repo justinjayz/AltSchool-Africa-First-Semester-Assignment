@@ -1,11 +1,49 @@
-:root {
+body {
   background-color: #ecf5ff;
+  font-family: sans-serif;
+  padding-inline: 350px;
+  padding-block: 35px;
+  border-top: 10px solid rgba(63, 32, 164, 0.849);
+  margin-top: 0;
 }
 
-a {
-  color: rgb(63, 32, 164);
-  font-size: 20px;
+a:link {
+  color: rgba(63, 32, 164, 0.849);
   text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+.nav {
+  color: rgba(63, 32, 164, 0.849);
+  font-size: 20px;
+  background-color: #dedada;
+  font-weight: bolder;
+  padding: 15px;
+  padding-left: 30px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(63, 32, 164, 0.849);
+  margin: 25px 0;
+  border: 0;
+}
+
+.line {
+  height: 0.5px;
+  margin: 10px 0;
+  border: 0;
+}
+
+.head,
+.media-headers {
+  color: rgba(63, 32, 164, 0.849);
+  margin-bottom: 20px;
 }
 
 h1,
@@ -16,14 +54,19 @@ h2 {
 
 p {
   font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-bottom: 25px;
 }
 
 li {
   font-size: 16;
   font-family: arial, helvetica, sans-serif;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
 }
 
 #copyright {
@@ -33,4 +76,12 @@ li {
 .media-headers,
 .header {
   text-align: left;
+}
+
+header .head {
+  margin-top: 30px;
+}
+
+footer.last {
+  margin-top: 50px;
 }
